@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
-const mongoose = require("mongoose");
 const http = require("http");
 const { Server } = require("socket.io");
 
@@ -20,36 +19,8 @@ app.use(express.json());
 
 app.use("/uploads", express.static("uploads"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/swsai");
-
-const documentSchema = new mongoose.Schema({
-  name: String,
-  size: Number,
-  path: String,
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
-});
-
-const notificationSchema = new mongoose.Schema({
-  message: String,
-  read: {
-    type: Boolean,
-    default: false,
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
-});
-
-const Document = mongoose.model("Document", documentSchema);
-
-const Notification = mongoose.model(
-  "Notification",
-  notificationSchema
-);
+let documents = [];
+let notifications = [];
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -69,32 +40,35 @@ app.post("/upload", upload.array("files"), async (req, res) => {
   const uploadedDocs = [];
 
   for (const file of files) {
-    const doc = await Document.create({
+    const doc = {
+      _id: Date.now() + Math.random(),
       name: file.originalname,
       size: file.size,
       path: file.filename,
-    });
+      createdAt: new Date(),
+    };
 
+    documents.push(doc);
     uploadedDocs.push(doc);
   }
 
   if (files.length > 3) {
-    const notification = await Notification.create({
+    const notification = {
+      _id: Date.now(),
       message: `${files.length} files uploaded successfully`,
-    });
+      read: false,
+      createdAt: new Date(),
+    };
+
+    notifications.push(notification);
 
     io.emit("new-notification", notification);
   }
 
   res.json(uploadedDocs);
 });
-
-app.get("/documents", async (req, res) => {
-  const docs = await Document.find().sort({
-    createdAt: -1,
-  });
-
-  res.json(docs);
+app.get("/documents", (req, res) => {
+  res.json(documents);
 });
 
 app.get("/notifications", async (req, res) => {
