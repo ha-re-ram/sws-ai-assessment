@@ -113,21 +113,35 @@ function App() {
           {files.length} files selected
         </p>
 
-        <div className="mt-4">
-          {files.map((file, index) => (
-            <div
-              key={index}
-              className="bg-slate-100 p-2 rounded mb-2"
-            >
-              <div className="flex justify-between">
-  <span>{file.name}</span>
-  <span className="text-green-600">
-    Ready
-  </span>
+       <div className="mt-4">
+  {files.map((file, index) => (
+    <div
+      key={index}
+      className="bg-slate-100 p-3 rounded mb-2 flex justify-between items-center"
+    >
+      <div>
+        <p className="font-medium">
+          {file.name}
+        </p>
+
+        <p className="text-sm text-gray-500">
+          {(file.size / 1024).toFixed(2)} KB
+        </p>
+      </div>
+
+      <button
+        onClick={() => {
+          const updatedFiles = [...files];
+          updatedFiles.splice(index, 1);
+          setFiles(updatedFiles);
+        }}
+        className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded"
+      >
+        Remove
+      </button>
+    </div>
+  ))}
 </div>
-            </div>
-          ))}
-        </div>
 
         <button
           onClick={uploadFiles}
@@ -202,4 +216,6 @@ function App() {
   );
 }
 
+
 export default App;
+

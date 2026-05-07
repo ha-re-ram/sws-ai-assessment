@@ -79,3 +79,18 @@ app.get("/notifications", (req, res) => {
 server.listen(5000, () => {
   console.log("Server running on port 5000");
 });
+
+app.get("/documents", (req, res) => {
+  res.json(documents);
+});
+app.delete("/documents/:id", (req, res) => {
+  const id = req.params.id;
+
+  documents = documents.filter(
+    (doc) => doc._id != id
+  );
+
+  res.json({
+    success: true,
+  });
+});

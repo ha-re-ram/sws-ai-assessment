@@ -1,0 +1,658 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5551
+>>
+stream
+0.5670000000000001 w
+0 G
+0.15 0.39 0.92 rg
+0. 841.8899999999999864 595.2755905511811534 -39.6850393700787407 re
+f
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+1. g
+56.6929133858267775 816.3781889763779418 Td
+(SWS AI) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+1. g
+370.732677165354346 816.3781889763779418 Td
+(CONFIDENTIAL – INTERNAL USE ONLY) Tj
+ET
+BT
+/F2 8 Tf
+9.1999999999999993 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 756.8506299212598378 Td
+(GETTING STARTED) Tj
+ET
+BT
+/F2 22 Tf
+25.2999999999999972 TL
+0.059 0.09 0.165 rg
+56.6929133858267775 737.0081102362204319 Td
+(Employee Onboarding Guide) Tj
+ET
+0.15 0.39 0.92 RG
+1.4173228346456694 w
+56.6929133858267775 700.1577165354329964 m
+538.5826771653544256 700.1577165354329964 l
+S
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 677.480551181102328 Td
+(Welcome to SWS AI) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 660.4726771653542983 Td
+(Congratulations on joining the SWS AI family! This guide will help you get set up, understand your first-week) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 644.8821259842519567 Td
+(schedule, and find everything you need to hit the ground running.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 615.1183464566928478 Td
+(Before Day 1) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 598.1104724409448181 Td
+(Before your first day:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 582.5199212598424765 Td
+(- Complete all documentation sent by HR \(offer letter, NDAs, tax forms\).) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 566.9293700787401349 Td
+(- Set up your company email account using the credentials shared by IT.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 551.3388188976377933 Td
+(- Install required software: Slack, Zoom, Jira, GitHub, VS Code.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 535.748267716535338 Td
+(- Read the Code of Conduct and HR Policy documents.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 505.9844881889763428 Td
+(Day 1 Schedule) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 488.9766141732283131 Td
+(9:30 AM – Welcome meeting with HR) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 473.3860629921259147 Td
+(10:00 AM – Office/team tour \(virtual walkthrough for remote employees\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 457.795511811023573 Td
+(11:00 AM – Introduction to your direct manager) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 442.2049606299212314 Td
+(12:00 PM – Lunch with the team) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 426.614409448818833 Td
+(2:00 PM – IT setup and tools walkthrough) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 411.0238582677164914 Td
+(4:00 PM – Company overview presentation) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 395.4333070866140929 Td
+(5:30 PM – Q&A session) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 365.6695275590550409 Td
+(First Week Goals) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 348.6616535433070112 Td
+(By the end of your first week, you should:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 333.0711023622046696 Td
+(- Have met all immediate team members.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 317.480551181102328 Td
+(- Have access to all required tools and systems.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 301.8899999999999864 Td
+(- Understand your role's key responsibilities.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 286.2994488188975311 Td
+(- Set up your development environment \(for engineering roles\).) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 270.7088976377951894 Td
+(- Complete mandatory compliance training in the HR portal.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 240.9451181102361943 Td
+(Tools & Systems) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 223.9372440944881646 Td
+(At SWS AI we use:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 208.3466929133857093 Td
+(- Communication: Slack) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 192.7561417322833677 Td
+(- Project Management: Jira) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 177.1655905511810261 Td
+(- Version Control: GitHub) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 161.5750393700786844 Td
+(- Documentation: Notion) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 145.9844881889763428 Td
+(- Video Calls: Google Meet / Zoom) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 130.3939370078738875 Td
+(- Cloud: AWS \(primary\), GCP \(secondary\)) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 114.8033858267715459 Td
+(- Code Reviews: GitHub Pull Requests) Tj
+ET
+0.97 0.98 0.99 rg
+0. 34.0159842519683977 595.2755905511811534 -34.0157480314960665 re
+f
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 0.455 0.545 rg
+56.6929133858267775 14.1734645669290558 Td
+(SWS AI | Employee Onboarding Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 0.455 0.545 rg
+497.9426771653543824 14.1734645669290558 Td
+(Page 1 of 2) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 2532
+>>
+stream
+1.4173228346456694 w
+0.15 0.39 0.92 RG
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 785.1970866141732586 Td
+(Your First 30 Days) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 768.1892125984252289 Td
+(The first 30 days focus on learning:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 752.5986614173227736 Td
+(- Days 1-7: Orientation, tool setup, team introductions.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 737.0081102362204319 Td
+(- Days 8-14: Deep dive into current projects and codebase.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 721.4175590551180903 Td
+(- Days 15-21: First small tasks or bug fixes under guidance.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 705.8270078740157487 Td
+(- Days 22-30: Begin contributing independently; first 1:1 with manager.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 676.0632283464566399 Td
+(Getting Help) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 659.0553543307086102 Td
+(Don't hesitate to ask for help. Your assigned buddy will support you through the first month. You can also) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 643.4648031496062686 Td
+(reach out to:) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 627.8742519685039269 Td
+(- Your manager for work-related queries.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 612.2837007874015853 Td
+(- HR \(hr@swsai.in\) for policy-related questions.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 596.69314960629913 Td
+(- IT \(it@swsai.in\) for system access issues.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 566.9293700787401349 Td
+(Key Contacts) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 549.9214960629921052 Td
+(CEO: Karthik Rajendran | CTO: Nithya Suresh | HR Head: Priya Menon | Engineering Lead: Arun Kumar |) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 534.3309448818897636 Td
+(Design Lead: Sneha Pillai) Tj
+ET
+0.97 0.98 0.99 rg
+0. 34.0159842519683977 595.2755905511811534 -34.0157480314960665 re
+f
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 0.455 0.545 rg
+56.6929133858267775 14.1734645669290558 Td
+(SWS AI | Employee Onboarding Guide) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.392 0.455 0.545 rg
+497.9426771653543824 14.1734645669290558 Td
+(Page 2 of 2) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260507114611+05'30')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000008476 00000 n 
+0000010301 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005755 00000 n 
+0000005892 00000 n 
+0000008539 00000 n 
+0000008664 00000 n 
+0000008794 00000 n 
+0000008927 00000 n 
+0000009065 00000 n 
+0000009189 00000 n 
+0000009318 00000 n 
+0000009450 00000 n 
+0000009586 00000 n 
+0000009714 00000 n 
+0000009841 00000 n 
+0000009970 00000 n 
+0000010103 00000 n 
+0000010205 00000 n 
+0000010551 00000 n 
+0000010637 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <36C8884A140F449E13ED665F3DF54EB6> <36C8884A140F449E13ED665F3DF54EB6> ]
+>>
+startxref
+10741
+%%EOF
