@@ -67,8 +67,6 @@ function App() {
 
       fetchDocuments();
       fetchNotifications();
-
-      setFiles([]);
     } catch (error) {
       toast.error("Upload failed");
     }
@@ -84,7 +82,7 @@ function App() {
 
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-4xl font-bold text-blue-600">
-          Document Dashboard
+          SWS AI Document Management Dashboard
         </h1>
 
         <div className="relative text-3xl">
@@ -96,22 +94,24 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-white p-6 rounded-2xl shadow mb-8">
+      <div className="bg-white p-6 rounded-2xl shadow-lg border border-slate-200 mb-8">
         <h2 className="text-xl font-semibold mb-4">
           Upload Documents
         </h2>
 
         <input
-  className="border p-2 rounded w-full"
-  type="file"
-  multiple
-  accept=".pdf"
-  onChange={(e) => {
-    console.log(e.target.files);
-    setFiles([...e.target.files]);
-  }}
-/>
-        <p>{files.length} files selected</p>
+          className="border p-2 rounded w-full"
+          type="file"
+          multiple
+          accept=".pdf"
+          onChange={(e) => {
+            setFiles([...e.target.files]);
+          }}
+        />
+
+        <p className="mt-2 text-sm text-gray-600">
+          {files.length} files selected
+        </p>
 
         <div className="mt-4">
           {files.map((file, index) => (
@@ -132,7 +132,7 @@ function App() {
         </button>
       </div>
 
-      <div className="bg-white p-6 rounded-2xl shadow">
+      <div className="bg-white p-6 rounded-2xl shadow-lg border border-slate-200">
         <h2 className="text-xl font-semibold mb-4">
           Uploaded Documents
         </h2>
@@ -143,6 +143,7 @@ function App() {
               <th className="text-left py-3">Name</th>
               <th className="text-left">Size</th>
               <th className="text-left">Date</th>
+              <th className="text-left">Download</th>
             </tr>
           </thead>
 
@@ -152,7 +153,9 @@ function App() {
                 key={doc._id}
                 className="border-b"
               >
-                <td className="py-3">{doc.name}</td>
+                <td className="py-3">
+                  {doc.name}
+                </td>
 
                 <td>
                   {(doc.size / 1024).toFixed(2)} KB
@@ -162,6 +165,17 @@ function App() {
                   {new Date(
                     doc.createdAt
                   ).toLocaleString()}
+                </td>
+
+                <td>
+                  <a
+                    href={`http://localhost:5000/uploads/${doc.path}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-blue-600 underline"
+                  >
+                    Download
+                  </a>
                 </td>
               </tr>
             ))}

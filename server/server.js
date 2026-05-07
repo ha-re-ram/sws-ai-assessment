@@ -71,13 +71,10 @@ app.get("/documents", (req, res) => {
   res.json(documents);
 });
 
-app.get("/notifications", async (req, res) => {
-  const notifications = await Notification.find().sort({
-    createdAt: -1,
-  });
-
+app.get("/notifications", (req, res) => {
   res.json(notifications);
 });
+
 
 server.listen(5000, () => {
   console.log("Server running on port 5000");
