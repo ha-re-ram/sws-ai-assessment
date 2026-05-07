@@ -86,7 +86,7 @@ function App() {
         </h1>
 
         <div className="relative text-3xl">
-          🔔
+          🔔 Notifications
 
           <span className="absolute -top-2 -right-3 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
             {unreadCount}
@@ -119,7 +119,12 @@ function App() {
               key={index}
               className="bg-slate-100 p-2 rounded mb-2"
             >
-              {file.name}
+              <div className="flex justify-between">
+  <span>{file.name}</span>
+  <span className="text-green-600">
+    Ready
+  </span>
+</div>
             </div>
           ))}
         </div>
@@ -148,7 +153,17 @@ function App() {
           </thead>
 
           <tbody>
-            {documents.map((doc) => (
+{documents.length === 0 ? (
+  <tr>
+    <td
+      colSpan="4"
+      className="text-center py-6 text-gray-500"
+    >
+      No documents uploaded yet
+    </td>
+  </tr>
+) : (
+  documents.map((doc) => (
               <tr
                 key={doc._id}
                 className="border-b"
@@ -178,7 +193,8 @@ function App() {
                   </a>
                 </td>
               </tr>
-            ))}
+            ))
+          )}
           </tbody>
         </table>
       </div>
